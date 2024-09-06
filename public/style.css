@@ -1,0 +1,205 @@
+/* Dark Mode Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.form-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444444; 
+    border-radius: 4px;
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #bbbbbb; 
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722; 
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a19; 
+    box-shadow: 0 0 15px 5px rgba(255, 87, 34, 0.7); 
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+p a {
+    color: #ff5722; 
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* Default text color */
+}
+
+.header {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+}
+
+.logo {
+    font-size: 24px; /* Adjust logo size */
+    font-weight: bold;
+    color: #ff5722; /* Orange logo color */
+}
+
+.form-container {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark form background with transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Deeper shadow for dark mode */
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff; /* Label color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444444; /* Darker border for input fields */
+    border-radius: 4px;
+    background-color: #333333; /* Dark background for input fields */
+    color: #ffffff; /* Text color for inputs */
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #bbbbbb; /* Lighter placeholder text */
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input[type="password"] {
+    padding-right: 40px; /* Space for the eye icon */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722; /* Orange button */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+    box-shadow: 0 0 15px 5px rgba(255, 87, 34, 0.7); /* Glowing effect */
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+p a {
+    color: #ff5722; /* Orange color for links */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
